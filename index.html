@@ -3,85 +3,90 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rajveer Jolly's Resume</title>
+  <title>Rajveer Singh Jolly - Resume</title>
   <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
-
-  <!-- navbar (mobile friendly toggle menu) -->
   <nav class="navbar">
-    <div class="logo">Rajveer</div>
+    <div class="logo">Rajveer Jolly</div>
     <button class="menu-toggle" onclick="toggleMenu()">☰</button>
-    <ul class="nav-links" id="navLinks">
+    <ul class="nav-links" id="nav-links">
       <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
       <li><a href="#education">Education</a></li>
       <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
+      <li><a href="#awards">Awards</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 
-  <!-- the about me part -->
-  <header id="about">
-    <img src="profile-placeholder.jpg" alt="Profile Picture" class="profile-pic">
+  <header>
+    <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
     <h1>Rajveer Singh Jolly</h1>
-    <p>Aspiring community outreach worker passionate about bridging the digital divide in Rwanda and South Africa.</p>
+    <p>Founder, Project Future | TEDx Speaker | Mail&Guardian 200 Young South African | Passionate about bridging the digital divide across Africa</p>
   </header>
 
-  <!-- skills sectionnnn -->
-  <section id="skills">
-    <h2>Skills</h2>
+  <section id="about">
+    <h2>About</h2>
+    <p>Born in the UAE and raised in Cape Town, South Africa, I'm passionate about creating access to opportunity through community outreach and technology. I founded Project Future to help close the digital divide across Africa. With a background in dramatic arts, leadership and public speaking, I use storytelling and tech to uplift youth and empower them to engage in the digital economy.</p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
     <ul>
-      <li>HTML & CSS</li>
-      <li>JavaScript</li>
-      <li>Digital Media Management</li>
-      <li>Networking & Community Engagement</li>
-      <li>Creative Strategy</li>
-      <li>Empathetic Communication</li>
+      <li><strong>African Leadership University</strong> — Software Engineering (2024–2027)</li>
+      <li><strong>African Leadership Academy</strong> — A Levels & Leadership (2022–2024)</li>
     </ul>
   </section>
 
-  <!-- education related stuff -->
-  <section id="education">
-    <h2>Education</h2>
-    <p><strong>African Leadership University</strong><br>
-    Kigali, Rwanda : BSc in Software Engineering (Current)</p>
-    <p><strong>African Leadership Academy</strong><br>
-    Johannesburg, South Africa</p>
-  </section>
-
-  <!-- job or work or internship -->
   <section id="experience">
     <h2>Experience</h2>
-    <p><strong>Next Studios</strong><br>
-    Digital Media Management :  Managing digital content for platforms and people</p>
+    <ul>
+      <li><strong>Founder - Project Future</strong> (Mar 2020–Present): Digital literacy programs, outreach events, and youth empowerment across Africa.</li>
+      <li><strong>Digital Media Manager - Next Studios</strong> (Present): Content creation, marketing strategy, and media management.</li>
+      <li><strong>Scholar - Bezos Family Foundation</strong> (Mar 2023–May 2023): Community change leader through the Bezos Scholars Program.</li>
+      <li><strong>Student Space Ambassador - The Mars Generation</strong> (2017–2022): STEAM education outreach and school presentations.</li>
+      <li><strong>Social Media Ambassador - Wanchain</strong> (2021): Strategy and outreach in blockchain community.</li>
+    </ul>
   </section>
 
-  <!-- my side hustle -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Team Leadership, Public Speaking, Community Outreach</li>
+      <li>Web Development, JavaScript, HTML/CSS</li>
+      <li>Digital Strategy, Social Media Optimisation, Marketing</li>
+      <li>Creative Writing, Videography, Dramatic Arts</li>
+      <li>Microsoft Office, Arduino, Research</li>
+    </ul>
+  </section>
+
   <section id="projects">
     <h2>Projects</h2>
-    <p><strong>Project Future</strong><br>
-    A digital empowerment initiative helping bridge the digital divide for youth in Africa.</p>
+    <p><strong>Project Future:</strong> A social enterprise equipping youth with digital skills and knowledge to thrive in a digital world. Includes community programs, youth bootcamps, and accessible online learning resources.</p>
   </section>
 
-  <!-- contact basic section-->
+  <section id="awards">
+    <h2>Awards & Honours</h2>
+    <ul>
+      <li>Chairperson - Matric Leadership Council (2021): Advocated for inclusivity in school policies.</li>
+      <li>2nd Place - U.N. Peace in the Streets Global Film Festival (2020)</li>
+      <li>NASA Advanced Space Academy Hall of Fame Award (2019)</li>
+      <li>Lead South Africa Youth Hero Award (2016)</li>
+      <li>Mail & Guardian 200 Young South Africans (Year TBD)</li>
+    </ul>
+  </section>
+
   <section id="contact">
     <h2>Contact</h2>
     <p>Email: rajveersjolly@thegmail.com</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/rajveer-singh-jolly" target="_blank">linkedin.com/in/rajveer-singh-jolly</a></p>
   </section>
 
-  <!-- exit -->
   <footer>
-    <p>Made with 💻 by Rajveer Jolly 2025 </p>
+    <p>&copy; 2025 Rajveer Singh Jolly</p>
   </footer>
-
-  <script>
-    // simple mobile menu toggle thingy
-    function toggleMenu() {
-      const nav = document.getElementById('navLinks');
-      nav.classList.toggle('show');
-    }
-  </script>
 </body>
 </html>
