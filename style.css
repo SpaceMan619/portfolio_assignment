@@ -1,0 +1,100 @@
+/* reseting for later */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* making body look nicer */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  color: #333;
+  padding: 10px;
+}
+
+/* navigation bar oreienation */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #444;
+  color: white;
+  padding: 1em;
+}
+
+.navbar .logo {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.navbar .menu-toggle {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5em;
+  cursor: pointer;
+  display: none; /* only show this on small screens for compatibielity */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+/* profile picture for when i put it there */
+.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 1em auto;
+}
+
+/* section styles */
+section, header {
+  background: white;
+  margin: 1em auto;
+  padding: 1em;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+/* contact and footer */
+footer {
+  text-align: center;
+  margin-top: 2em;
+  font-size: 0.9em;
+}
+
+/* make it responsive for small screens */
+@media (max-width: 600px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 0.5em;
+    background-color: #333;
+    padding: 1em;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .navbar .menu-toggle {
+    display: block;
+  }
+}
+ø

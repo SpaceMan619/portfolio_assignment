@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rajveer Jolly's Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- navbar (mobile friendly toggle menu) -->
+  <nav class="navbar">
+    <div class="logo">Rajveer</div>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- the about me part -->
+  <header id="about">
+    <img src="profile-placeholder.jpg" alt="Profile Picture" class="profile-pic">
+    <h1>Rajveer Singh Jolly</h1>
+    <p>Aspiring community outreach worker passionate about bridging the digital divide in Rwanda and South Africa.</p>
+  </header>
+
+  <!-- skills sectionnnn -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML & CSS</li>
+      <li>JavaScript</li>
+      <li>Digital Media Management</li>
+      <li>Networking & Community Engagement</li>
+      <li>Creative Strategy</li>
+      <li>Empathetic Communication</li>
+    </ul>
+  </section>
+
+  <!-- education related stuff -->
+  <section id="education">
+    <h2>Education</h2>
+    <p><strong>African Leadership University</strong><br>
+    Kigali, Rwanda — BSc in Software Engineering (Current)</p>
+    <p><strong>African Leadership Academy</strong><br>
+    Johannesburg, South Africa</p>
+  </section>
+
+  <!-- job or work or internship -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <p><strong>Next Studios</strong><br>
+    Digital Media Management — Managing digital content for platforms and people</p>
+  </section>
+
+  <!-- my side hustle -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <p><strong>Project Future</strong><br>
+    A digital empowerment initiative helping bridge the digital divide for youth in Africa.</p>
+  </section>
+
+  <!-- contact basic section-->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: rajveersjolly@thegmail.com</p>
+  </section>
+
+  <!-- exit -->
+  <footer>
+    <p>Made with 💻 by Rajveer Jolly (first try!)</p>
+  </footer>
+
+  <script>
+    // simple mobile menu toggle thingy
+    function toggleMenu() {
+      const nav = document.getElementById('navLinks');
+      nav.classList.toggle('show');
+    }
+  </script>
+</body>
+</html>
